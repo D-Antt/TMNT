@@ -1,0 +1,60 @@
+body {
+    background-image: url('assets/hidefTMNTbackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif; /* We'll replace this with your graffiti font once you have it */
+    color: #000000; /* We can adjust this color based on your graffiti font */
+}
+
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #FFFFFF; /* White */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#left-container, #middle-container, #right-container {
+    flex: 1;
+    text-align: center;
+}
+
+#middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: #FFFFFF; /* White */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+#instruction-area {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #FFFFFF; /* White */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #FFFFFF; /* White */
+}
